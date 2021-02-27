@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Fira Code Regular';
+    color: #333;
+}
+
+input {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+p {
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0px 100px;
+    display: block;
+}
+
+h1::before {
+    content: '';
+    height: 5px;
+    width: 30px;
+    margin-right: 10px;
+    background-color: #333;
+    display: inline-block;
+}
+
+#cep input {
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.item {
+    border: 1px solid #333;
+    margin: 20px;
+    padding: 20px;
+    min-height: 380px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#jokes span {
+    margin: 10px 0px;
+}
